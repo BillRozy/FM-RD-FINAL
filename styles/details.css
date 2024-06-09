@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     margin: 4rem auto;
+    z-index: 50;
     .delimiter-line {
         width: 1px;
         height: 84px;
@@ -23,6 +24,7 @@
         width: var(--delimiter-circle-size);
         height: var(--delimiter-circle-size);
         font-size: 1rem;
+        font-weight: 900;
     }
 }
 
@@ -33,6 +35,11 @@
 }
 
 @media (min-width: 1440px) {
+    .delimiter {
+        &:first-of-type {
+            margin-top: calc(6.875rem - 7px);
+        }
+    }
     .logo {
         margin-bottom: 3.8125rem
     }

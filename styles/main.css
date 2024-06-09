@@ -37,7 +37,9 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    background-color: var(--color-light);
     padding: var(--root-y-padding) var(--root-x-padding);
+    padding-bottom: 0;
 }
 
 .info-section {
@@ -100,8 +102,14 @@ body {
     font-size: 1rem;
     line-height: 1.625rem;
     border-radius: 2rem;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     color: white;
+    &:nth-of-type(1) {
+        width: 193px;
+    }
+    &:nth-of-type(2) {
+        width: 139px;
+    }
     &:hover {
         cursor: pointer;
     }
@@ -132,6 +140,9 @@ body {
     .info-section {
         gap: 2rem;
         max-width: 573px;
+        .font-heading-2 {
+            max-width: 445px;
+        }
     }
     .font-heading {
         font-size: 3rem;
