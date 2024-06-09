@@ -37,7 +37,7 @@
 @media (min-width: 1440px) {
     .delimiter {
         &:first-of-type {
-            margin-top: calc(6.875rem - 7px);
+            margin-top: 6.875rem;
         }
     }
     .logo {
