@@ -32,5 +32,10 @@
         .images-flex {
             column-gap: 30px;
         }
+        .info-section {
+            .font-overline {
+                margin-bottom: -1rem
+            }
+        }
     }
 }

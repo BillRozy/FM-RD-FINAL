@@ -39,6 +39,9 @@
         &:first-of-type {
             margin-top: 6.875rem;
         }
+        &:last-of-type {
+            margin-top: 4.5rem;
+        }
     }
     .logo {
         margin-bottom: 3.8125rem
