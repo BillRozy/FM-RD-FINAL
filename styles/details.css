@@ -1,0 +1,40 @@
+.logo {
+    display: block;
+    margin-bottom: 3.375rem;
+}
+.delimiter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    .delimiter-line {
+        width: 1px;
+        height: 84px;
+        background-color: var(--color-gray-opaque);
+    }
+    .delimiter-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border: 1px solid var(--color-gray-opaque);
+        color: var(--color-gray);
+        border-radius: 50%;
+        width: var(--delimiter-circle-size);
+        height: var(--delimiter-circle-size);
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .logo {
+        margin-bottom: 3.8125rem
+    }
+
+}

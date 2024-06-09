@@ -1,0 +1,41 @@
+.subpage-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    .images-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 25px;
+        row-gap: 24px;
+        max-width: 100%;
+        img {
+            border-radius: 0.5rem;
+            height: auto;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .subpage-2 {
+        .images-flex {
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 11px;
+        }
+        .info-section {
+            .font-heading-2 {
+                max-width: 445px
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .subpage-2 {
+        .images-flex {
+            column-gap: 30px;
+        }
+    }
+}

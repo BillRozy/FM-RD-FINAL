@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/details.css" />
+    <link rel="stylesheet" href="./styles/section-1.css" />
+    <link rel="stylesheet" href="./styles/section-2.css" />
+    <link rel="stylesheet" href="./styles/section-3.css" />
+
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <img class="logo" src="./assets/logo.svg" />
+
+    <section class="subpage-1">
+      <img
+        class="people-hero-no-desktop"
+        src="./assets/tablet/image-hero.png"
+      />
+      <img
+        class="people-hero-desktop-left"
+        src="./assets/desktop/image-hero-left.png"
+      />
+      <div class="info-section welcome-info">
+        <h2 class="font-heading is-color-dark">Group Chat<br />for Everyone</h2>
+        <p class="font-body is-color-gray">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="buttons-flex">
+          <a class="button is-primary"
+            >Download <span class="is-color-primary-light">v1.3</span></a
+          >
+          <a class="button is-secondary">What is it?</a>
+        </div>
+      </div>
+      <img
+        class="people-hero-desktop-right"
+        src="./assets/desktop/image-hero-right.png"
+      />
+    </section>
+    <div class="delimiter">
+      <div class="delimiter-line"></div>
+      <div class="delimiter-circle">01</div>
+    </div>
+    <section class="subpage-2">
+      <div class="images-flex">
+        <img src="./assets/desktop/image-woman-in-videocall.jpg" />
+        <img src="./assets/desktop/image-women-videochatting.jpg" />
+        <img src="./assets/desktop/image-men-in-meeting.jpg" />
+        <img src="./assets/desktop/image-man-texting.jpg" />
+      </div>
+      <div class="info-section">
+        <span class="font-overline is-color-primary">Built for modern use</span>
+        <h2 class="font-heading-2 is-color-dark">
+          Smarter meetings, all in one place
+        </h2>
+        <p class="font-body is-color-gray">
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite&#x2011;only
+          team access, data encryption, and data export.
+        </p>
+      </div>
+    </section>
+
+    <div class="delimiter">
+      <div class="delimiter-line"></div>
+      <div class="delimiter-circle">02</div>
+    </div>
+    <footer class="subpage-3">
+      <div class="overlay-background">
+        <picture alt="Woman listening to music">
+          <source srcset="./assets/desktop/image-footer.jpg" media="(min-width: 1440px)" />
+          <source srcset="./assets/tablet/image-footer.jpg" media="(min-width: 768px)" />
+          <img src="./assets/mobile/image-footer.jpg" />
+        </picture>
+        <div class="overlay"></div>
+      </div>
+      <div class="info-section">
+        <h2 class="font-heading-2 is-color-light">Experience more together</h2>
+        <p class="font-body is-color-light">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <a class="button is-secondary"
+          >Download <span class="is-color-secondary-light">v1.3</span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
